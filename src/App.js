@@ -4,6 +4,8 @@ import { GlobalStyle } from "./globalStyles.js";
 import Hero from "./components/Hero";
 import Products from "./components/Products/index.js";
 import { productData } from "./components/Products/data.js";
+import Feature from "./components/Feature/index.js";
+import Footer from "./components/Footer/index.js";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Products heading="Choose your favorite" data={productData} />
+      <Feature />
+      <Footer />
     </Router>
   );
 }
