@@ -3,7 +3,7 @@ import { NavLink as Link } from "react-router-dom";
 import { BiRestaurant as RestaurantIcon } from "react-icons/bi";
 
 export const Nav = styled.nav`
-  background: red;
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: center;
